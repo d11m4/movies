@@ -2,7 +2,7 @@
 from django.db import models
 
 class Movie(models.Model):
-    first_name = models.CharField("First nam", max_length=255)
+    first_name = models.CharField("First name", max_length=255)
     last_name = models.CharField("Last name", max_length=255)
     email = models.EmailField()
     phone = models.CharField(max_length=20)
